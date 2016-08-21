@@ -30,7 +30,7 @@
     "url": "https://github.com/alebelcor/gigs.git"
   },
   "scripts": {
-    "test": "ava",
+    "test": "nyc ava",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
