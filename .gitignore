@@ -10,4 +10,6 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
+.nyc_output
+coverage
 node_modules
