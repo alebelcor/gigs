@@ -3,6 +3,7 @@
 > A jobs/careers/openings/positions aggregator
 
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs/master.svg)](https://travis-ci.org/alebelcor/gigs)
+[![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs.svg)](https://coveralls.io/github/alebelcor/gigs)
 
 ## Install
 

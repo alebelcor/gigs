@@ -7,3 +7,5 @@ branches:
   only:
     - master
 sudo: false
+after_success:
+  - npm run coveralls

@@ -30,7 +30,8 @@
     "url": "https://github.com/alebelcor/gigs.git"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "is-plain-obj": "^1.1.0",
@@ -39,7 +40,9 @@
     "lodash.some": "^4.6.0"
   },
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^0.16.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^8.1.0"
   },
   "engines": {
     "node": ">=4"
