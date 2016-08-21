@@ -131,6 +131,10 @@ Type: `string`
 
 Publication date of the position in `YYYY-MM-DD` format, e.g. `2016-12-16`
 
+## Related
+
+* [gigs-adapter-codepen-jobs](https://github.com/alebelcor/gigs-adapter-codepen-jobs)
+
 ## License
 
 MIT © Alejandro Beltrán
