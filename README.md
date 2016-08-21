@@ -134,6 +134,7 @@ Publication date of the position in `YYYY-MM-DD` format, e.g. `2016-12-16`
 ## Related
 
 * [gigs-adapter-codepen-jobs](https://github.com/alebelcor/gigs-adapter-codepen-jobs) - A gigs adapter for [CodePen's job board](https://codepen.io/jobs)
+* [gigs-adapter-stackoverflow-jobs](https://github.com/alebelcor/gigs-adapter-stackoverflow-jobs) - A gigs adapter for [Stack Overflow's jobs feed](http://stackoverflow.com/jobs)
 
 ## License
 
