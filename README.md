@@ -2,6 +2,7 @@
 
 > A jobs/careers/openings/positions aggregator
 
+[![npm version](https://img.shields.io/npm/v/gigs.svg)](https://npmjs.org/package/gigs)
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs/master.svg)](https://travis-ci.org/alebelcor/gigs)
 [![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs.svg)](https://coveralls.io/github/alebelcor/gigs)
 
