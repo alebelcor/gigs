@@ -136,7 +136,7 @@ Publication date of the position in `YYYY-MM-DD` format, e.g. `2016-12-16`
 * [gigs-adapter-codepen-jobs](https://github.com/alebelcor/gigs-adapter-codepen-jobs) - A gigs adapter for [CodePen's job board](https://codepen.io/jobs)
 * [gigs-adapter-landingjobs](https://github.com/alebelcor/gigs-adapter-landingjobs) - A gigs adapter for [Landing.jobs](https://landing.jobs)
 * [gigs-adapter-nofluffjobs](https://github.com/alebelcor/gigs-adapter-nofluffjobs) - A gigs adapter for [No Fluff Jobs](https://nofluffjobs.com)
-* [gigs-adapter-stackoverflow-jobs](https://github.com/alebelcor/gigs-adapter-stackoverflow-jobs) - A gigs adapter for [Stack Overflow's jobs feed](http://stackoverflow.com/jobs)
+* [gigs-adapter-stackoverflow-jobs](https://github.com/alebelcor/gigs-adapter-stackoverflow-jobs) - A gigs adapter for [Stack Overflow's job board](http://stackoverflow.com/jobs)
 
 ## License
 
