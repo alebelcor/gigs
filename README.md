@@ -2,6 +2,8 @@
 
 > A jobs/careers/openings/positions aggregator
 
+[![Build Status](https://img.shields.io/travis/alebelcor/gigs/master.svg)](https://travis-ci.org/alebelcor/gigs)
+
 ## Install
 
 ```bash
