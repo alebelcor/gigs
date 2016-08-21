@@ -1,0 +1,13 @@
+*.log
+Icon?
+sys$command
+*.sublime-project
+*.sublime-workspace
+.DS_Store*
+Desktop.ini
+._*
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+node_modules

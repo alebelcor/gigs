@@ -1,0 +1,47 @@
+{
+  "name": "gigs",
+  "version": "0.1.0",
+  "description": "A jobs/careers/openings/positions aggregator",
+  "keywords": [
+    "gig",
+    "job",
+    "career",
+    "opening",
+    "position",
+    "aggregator",
+    "util",
+    "utility",
+    "fetch"
+  ],
+  "bugs": "https://github.com/alebelcor/gigs/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Alejandro Beltrán",
+    "email": "alebelcor@gmail.com",
+    "url": "https://github.com/alebelcor"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alebelcor/gigs.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "is-plain-obj": "^1.1.0",
+    "lodash.clone": "^4.5.0",
+    "lodash.flattendeep": "^4.4.0",
+    "lodash.some": "^4.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
