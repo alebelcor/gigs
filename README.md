@@ -129,7 +129,7 @@ Whether the position is remote (or allows remote).
 
 Type: `string`
 
-Publication date of the position in `YYYY-MM-DD` format, e.g. `2016-12-16`
+Publication date of the position in (UTC) `YYYY-MM-DD` format, e.g. `2016-12-16`
 
 ## Related
 
