@@ -75,7 +75,7 @@ A `gigs` object is a plain object with these members:
 
 Type: `string`
 
-Name of the adapter, e.g. `gigs-adapter-stackoverflow-jobs`.
+Name of the adapter without the `gigs-adapter-` prefix, e.g. `stackoverflow-jobs`.
 
 #### source_url
 
