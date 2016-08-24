@@ -113,11 +113,11 @@ Type: `string`
 
 Location of the position. `null` for remote positions, e.g. `San Francisco, CA, US`
 
-#### term
+#### full_time
 
-Type: `string`
+Type: `boolean`
 
-`full-time`, `part-time` or `contract`.
+Whether the position is full-time or not.
 
 #### remote
 
