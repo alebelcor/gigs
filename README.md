@@ -133,6 +133,7 @@ Publication date of the position in (UTC) `YYYY-MM-DD` format, e.g. `2016-12-16`
 
 ## Related
 
+* [gigs-adapter-authenticjobs](https://github.com/alebelcor/gigs-adapter-authenticjobs) - A gigs adapter for [Authentic Jobs](https://authenticjobs.com)
 * [gigs-adapter-codepen-jobs](https://github.com/alebelcor/gigs-adapter-codepen-jobs) - A gigs adapter for [CodePen's job board](https://codepen.io/jobs)
 * [gigs-adapter-crunchboard](https://github.com/alebelcor/gigs-adapter-crunchboard) - A gigs adapter for [CrunchBoard](https://www.crunchboard.com)
 * [gigs-adapter-dribbble-jobs](https://github.com/alebelcor/gigs-adapter-dribbble-jobs) - A gigs adapter for [Dribbble's job board](https://dribbble.com/jobs)
