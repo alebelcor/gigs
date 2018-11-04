@@ -2,6 +2,25 @@
   "name": "gigs",
   "version": "1.0.0",
   "description": "A jobs/careers/openings/positions aggregator",
+  "license": "MIT",
+  "repository": "alebelcor/gigs",
+  "author": {
+    "name": "Alejandro Beltrán",
+    "email": "alebelcor@gmail.com",
+    "url": "https://github.com/alebelcor"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "clinton && xo && nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "keywords": [
     "gig",
     "job",
@@ -13,38 +32,30 @@
     "utility",
     "fetch"
   ],
-  "bugs": "https://github.com/alebelcor/gigs/issues",
-  "license": "MIT",
-  "author": {
-    "name": "Alejandro Beltrán",
-    "email": "alebelcor@gmail.com",
-    "url": "https://github.com/alebelcor"
-  },
-  "files": [
-    "lib/",
-    "index.js"
-  ],
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alebelcor/gigs.git"
-  },
-  "scripts": {
-    "test": "nyc ava",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls"
-  },
   "dependencies": {
     "is-plain-obj": "^1.1.0",
-    "lodash.clone": "^4.5.0",
-    "lodash.flattendeep": "^4.4.0",
-    "lodash.some": "^4.6.0"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
-    "coveralls": "^2.11.12",
-    "nyc": "^8.1.0"
+    "ava": "^0.25.0",
+    "clinton": "^0.14.0",
+    "coveralls": "^3.0.2",
+    "nyc": "^13.1.0",
+    "xo": "^0.23.0"
   },
-  "engines": {
-    "node": ">=4"
+  "clinton": {
+    "rules": {
+      "ava": [
+        "error",
+        "0.25.0"
+      ],
+      "xo": [
+        "error",
+        "0.23.0"
+      ]
+    }
+  },
+  "xo": {
+    "space": 2
   }
 }

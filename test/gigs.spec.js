@@ -1,10 +1,11 @@
 'use strict';
 
 import test from 'ava';
-import gigs from '../';
+
+import gigs from '..';
 import defaultGig from '../lib/default';
 
-test('it should make sure the adapters parameter is an array', (t) => {
+test('it should make sure the adapters parameter is an array', t => {
   let processor;
 
   processor = gigs();
@@ -20,7 +21,7 @@ test('it should make sure the adapters parameter is an array', (t) => {
   t.true(processor.adapters.length === 2);
 });
 
-test('#create should validate the parameter', (t) => {
+test('#create should validate the parameter', t => {
   t.throws(() => gigs.create());
   t.throws(() => gigs.create(null));
   t.throws(() => gigs.create(true));
@@ -29,25 +30,25 @@ test('#create should validate the parameter', (t) => {
   t.throws(() => gigs.create([]));
 });
 
-test('#create should use default values', (t) => {
+test('#create should use default values', t => {
   t.deepEqual(defaultGig, gigs.create({}));
 });
 
-test('#create should override default values', (t) => {
+test('#create should override default values', t => {
   const gig = gigs.create({
     source: 'foo',
     title: 'foo developer'
-  })
+  });
 
   t.deepEqual('foo', gig.source);
   t.deepEqual('foo developer', gig.title);
 });
 
-test('#create should not allow undefined or empty values', (t) => {
+test('#create should not allow undefined or empty values', t => {
   const gig = gigs.create({
     source: '',
-    title: void 0
-  })
+    title: undefined
+  });
 
   t.deepEqual(null, gig.source);
   t.deepEqual(null, gig.title);
