@@ -140,6 +140,7 @@ Publication date of the position in (UTC) `YYYY-MM-DD` format, e.g. `2016-12-16`
 * [gigs-adapter-github-jobs](https://github.com/alebelcor/gigs-adapter-github-jobs) - A gigs adapter for [GitHub's job board](https://jobs.github.com)
 * [gigs-adapter-landingjobs](https://github.com/alebelcor/gigs-adapter-landingjobs) - A gigs adapter for [Landing.jobs](https://landing.jobs)
 * [gigs-adapter-nofluffjobs](https://github.com/alebelcor/gigs-adapter-nofluffjobs) - A gigs adapter for [No Fluff Jobs](https://nofluffjobs.com)
+* [gigs-adapter-remoteok](https://github.com/alebelcor/gigs-adapter-remoteok) - A gigs adapter for [Remote OK](https://remoteok.io)
 * [gigs-adapter-stackoverflow-jobs](https://github.com/alebelcor/gigs-adapter-stackoverflow-jobs) - A gigs adapter for [Stack Overflow's job board](http://stackoverflow.com/jobs)
 
 ## License
